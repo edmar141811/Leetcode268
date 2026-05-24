@@ -1,0 +1,32 @@
+/*
+first approach but someone said a different aproach that i want to try out 
+
+Runtime 59 ms
+Beats 5.09%
+Memory 21.79 MB
+Beats 69.01%
+
+I want to try the other version
+*/
+class Solution {
+public:
+    int missingNumber(vector<int>& nums) {
+        int temp = 0;
+        bool in =false;
+        sort(nums.begin(), nums.end());
+        for(int i = 0; i < nums.size(); i++){
+            cout << nums [i];
+            temp = i;
+            if(nums[i] != i){
+                in = true;
+                break;
+            }
+        }
+        if(in == true){
+            return temp;
+        }
+        else{
+            return temp+1;
+        }
+    }
+};
