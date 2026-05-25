@@ -1,10 +1,12 @@
 /*
 first approach but someone said a different aproach that i want to try out 
 
-Runtime 59 ms
-Beats 5.09%
-Memory 21.79 MB
-Beats 69.01%
+Runtime 3 ms
+Beats 18.88%
+Memory 21.82 MB
+Beats 37.65%
+
+optimized the time usage a little more
 
 I want to try the other version
 */
