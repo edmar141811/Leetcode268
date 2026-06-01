@@ -5,6 +5,8 @@ This is my version of code for the Leetcode problem 268, Missing Number, written
 
 Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.
 
+will also attempt two versions to see which approach is best
+
  
 Example 1:
 Input: nums = [3,0,1]
